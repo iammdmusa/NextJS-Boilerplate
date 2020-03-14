@@ -52,5 +52,5 @@ In addition, the usage of an editor extension like vscode-standardjs is recommen
 ## Last But not least
 
 Be happy and spread happiness
-Keep Rocking
+Keep Rocking\
 Musa
