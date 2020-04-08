@@ -14,46 +14,46 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "next": "9.2.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "next": "9.3.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@storybook/addon-actions": "^5.3.14",
-    "@storybook/addon-backgrounds": "^5.3.14",
-    "@storybook/addon-docs": "^5.3.14",
-    "@storybook/addon-knobs": "^5.3.14",
-    "@storybook/addon-links": "^5.3.14",
-    "@storybook/addon-storyshots": "^5.3.14",
-    "@storybook/addon-viewport": "^5.3.14",
-    "@storybook/addons": "^5.3.14",
-    "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.14",
-    "@testing-library/react": "^9.5.0",
-    "babel-jest": "^25.1.0",
-    "babel-loader": "^8.0.6",
-    "commitizen": "^4.0.3",
-    "cross-env": "^7.0.1",
-    "cypress": "^4.1.0",
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-backgrounds": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storyshots": "^5.3.18",
+    "@storybook/addon-viewport": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-create-react-app": "^2.1.1",
+    "@storybook/react": "^5.3.18",
+    "@testing-library/react": "^10.0.2",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.1.0",
+    "commitizen": "^4.0.4",
+    "cross-env": "^7.0.2",
+    "cypress": "^4.3.0",
     "cz-conventional-changelog": "^3.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-cypress": "^2.10.3",
-    "eslint-plugin-jest": "^23.8.1",
+    "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
     "husky": "^4.2.3",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^25.1.0",
-    "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1",
+    "jest": "^25.3.0",
+    "lint-staged": "^10.1.2",
+    "prettier": "^2.0.4",
     "react-addons-test-utils": "^15.6.2",
-    "react-test-renderer": "^16.13.0",
-    "standard": "^14.3.1",
+    "react-test-renderer": "^16.13.1",
+    "standard": "^14.3.3",
     "tailwindcss": "^1.2.0"
   },
   "config": {
@@ -67,14 +67,32 @@
     }
   },
   "lint-staged": {
-    "*.{css,json,md}": ["prettier --write", "git add"],
-    "*.{js,jsx}": ["prettier --write", "standard --fix", "git add"]
+    "*.{css,json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write",
+      "standard --fix",
+      "git add"
+    ]
   },
   "browserslist": {
-    "production": ["last 1 chrome version"],
-    "development": ["last 1 chrome version"]
+    "production": [
+      "last 1 chrome version"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
   },
   "standard": {
-    "globals": ["jest", "it", "expect", "test", "describe", "storybook"]
+    "globals": [
+      "jest",
+      "it",
+      "expect",
+      "test",
+      "describe",
+      "storybook"
+    ]
   }
 }
